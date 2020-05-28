@@ -20,7 +20,7 @@ function! LogicToggle()
 	else
 		let toggled = "_"
 		for [key, value] in items(s:Words)
-		    if index(value, word2toggle) >= 0
+		    if value == word2toggle
 			let toggled = key
 			break
 		    endif
