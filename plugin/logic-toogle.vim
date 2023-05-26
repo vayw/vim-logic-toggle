@@ -11,6 +11,8 @@ let s:Words = {
   \ 'before': 'after',
   \ 'first': 'last',
   \ 'yes': 'no',
+  \ 'decode': 'encode',
+  \ 'private': 'public',
   \ }
 
 function! LogicToggle()
